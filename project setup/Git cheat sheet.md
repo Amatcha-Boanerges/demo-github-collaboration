@@ -1,7 +1,10 @@
-## Git hub flow
+# Git hub flow
+
+## Clone repo
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 
 ## Initialize repo
-
 git init
 git add README.md
 git commit -m "first commit"
@@ -9,8 +12,17 @@ git branch -M main
 git remote add origin https://github.com/Amatcha-Boanerges/landingpage-paconf.git
 git push -u origin main
 
-## Create a new branch
+## Initialize repo with content
 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Amatcha-Boanerges/landingpage-paconf.git
+git push -u origin main
+
+
+## Create a new branch
 git checkout -b develop
 git push --set-upstream origin develop
 
@@ -40,7 +52,6 @@ git add .
 git commit -m "Resolved merge conflicts"
 
 ## Push changes
-
 git push origin develop
 
 Install Tailwind `npm install -D tailwindcss@3 postcss autoprefixer` and `npx tailwindcss init --ts -p`
