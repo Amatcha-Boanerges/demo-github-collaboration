@@ -2,9 +2,9 @@ name: Next.js CI
 
 on:
   push:
-    branches: [ main, develop, feature/hero-section,]
+    branches: [ main, develop, feature/hero-section]
   pull_request:
-    branches: [ main, develop, feature/hero-section ]
+    branches: [ main, develop, feature/hero-section]
 
 jobs:
   build:
