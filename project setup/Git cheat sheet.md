@@ -9,7 +9,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Amatcha-Boanerges/landingpage-paconf.git
+git remote add origin https://github.com/Amatcha-Boanerges/demo-github-collaboration.git
 git push -u origin main
 
 ## Initialize repo with content
@@ -53,5 +53,3 @@ git commit -m "Resolved merge conflicts"
 
 ## Push changes
 git push origin develop
-
-Install Tailwind `npm install -D tailwindcss@3 postcss autoprefixer` and `npx tailwindcss init --ts -p`
