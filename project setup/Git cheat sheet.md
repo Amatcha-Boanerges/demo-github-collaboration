@@ -52,6 +52,7 @@ git add .
 git commit -m "Resolved merge conflicts"
 
 ## Push changes
-git push origin develop
+
 
 Install Tailwind `npm install -D tailwindcss@3 postcss autoprefixer` and `npx tailwindcss init --ts -p`
+git push origin develop
