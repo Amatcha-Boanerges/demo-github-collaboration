@@ -25,6 +25,7 @@ git push -u origin main
 ## Create a new branch
 git checkout -b develop
 git push --set-upstream origin develop
+git branch -a
 
 ## Create a new feature branch
 
