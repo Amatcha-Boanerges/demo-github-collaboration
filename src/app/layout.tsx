@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CustomCursor from "@/components/CustomCursor";
 
 export const metadata: Metadata = {
   title: "Luzhaven Yango Partner - Get Paid What You're Worth",
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <CustomCursor />
         {children}
       </body>
     </html>
