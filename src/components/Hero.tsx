@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui';
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useAnimationFrame } from "framer-motion";
@@ -169,17 +171,17 @@ export default function Hero() {
         </div>
 
         {/* Main Text */}
-        <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">
-          Get Paid What You're <br></br>Worth.
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight font-primary">
+          <span className="text-white">Work with a partner who truly</span>
+          <br />
+          <span className="text-luzhaven-red">has your back.</span>
         </h1>
-        <h2 className="text-3xl sm:text-4xl font-bold text-red-600 mb-4">
-          A Partner Who's Got You.
-        </h2>
-        <p className="text-gray-200 max-w-lg mb-6">
-          Stop getting blamed for every problem. Join the leading Yango partner
-          that always has your back.
+        
+        <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed font-medium px-2">
+          Tired of being blamed for every issue or left waiting when you need help? With Luzhaven, you get real support, better earnings, and rewards that actually mean something.
         </p>
-
+        </div>
         {/* Button */}
         <a
           href="#apply"
