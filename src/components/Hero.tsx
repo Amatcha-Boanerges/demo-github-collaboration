@@ -1,7 +1,6 @@
 "use client";
 
 import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui';
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useAnimationFrame } from "framer-motion";
